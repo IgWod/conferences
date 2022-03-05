@@ -1,0 +1,672 @@
+[
+  {
+    "month" : "Januray",
+    "venues" : [
+      {
+        "name" : "POPL",
+        "proceedings" : "https://dblp.org/db/conf/popl/index.html",
+        "tags" : ["pl"],
+        "series": [
+          {
+            "date" : "15-01-2023",
+            "website" : "https://conf.researchr.org/home/POPL-2023"
+          },
+          {
+            "date" : "16-01-2022",
+            "website" : "https://popl22.sigplan.org/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "month" : "February",
+    "venues" : [
+      {
+        "name" : "ASPLOS",
+        "proceedings" : "https://dblp.org/db/conf/asplos/index.html",
+        "tags" : ["sys", "arch", "rc", "pl"],
+        "series": [
+          {
+            "date" : "",
+            "website" : ""
+          },
+          {
+            "date" : "28-02-2022",
+            "website" : "https://asplos-conference.org/"
+          }
+        ]
+      },
+      {
+        "name" : "FPGA",
+        "proceedings" : "https://dblp.org/db/conf/fpga/index.html",
+        "tags" : ["rc"],
+        "series": [
+          {
+            "date" : "",
+            "website" : ""
+          },
+          {
+            "date" : "27-02-2022",
+            "website" : "https://www.isfpga.org/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "month" : "March",
+    "venues" : [
+      {
+        "name" : "VEE",
+        "proceedings" : "https://dblp.org/db/conf/vee/index.html",
+        "tags" : ["sys"],
+        "series": [
+          {
+            "date" : "",
+            "website" : ""
+          },
+          {
+            "date" : "01-03-2022",
+            "website" : "https://conf.researchr.org/home/vee-2022"
+          }
+        ]
+      },
+      {
+        "name" : "DATE",
+        "proceedings" : "https://dblp.org/db/conf/date/index.html",
+        "tags" : ["sys", "arch", "rc"],
+        "series": [
+          {
+            "date" : "",
+            "website" : ""
+          },
+          {
+            "date" : "14-03-2022",
+            "website" : "https://www.date-conference.com/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "month" : "April",
+    "venues" : [
+      {
+        "name" : "HPCA",
+        "proceedings" : "https://dblp.org/db/conf/hpca/index.html",
+        "tags" : ["arch", "rc", "hpc"],
+        "series": [
+          {
+            "date" : "",
+            "website" : ""
+          },
+          {
+            "date" : "06-04-2022",
+            "website" : "https://hpca-conf.org/2022/"
+          }
+        ]
+      },
+      {
+        "name" : "PPoPP",
+        "proceedings" : "https://dblp.org/db/conf/ppopp/index.html",
+        "tags" : ["hpc"],
+        "series": [
+          {
+            "date" : "",
+            "website" : ""
+          },
+          {
+            "date" : "02-04-2022",
+            "website" : "https://ppopp22.sigplan.org/"
+          }
+        ]
+      },
+      {
+        "name" : "CGO",
+        "proceedings" : "https://dblp.org/db/conf/cgo/index.html",
+        "tags" : ["pl"],
+        "series": [
+          {
+            "date" : "",
+            "website" : ""
+          },
+          {
+            "date" : "02-04-2022",
+            "website" : "https://conf.researchr.org/home/cgo-2022/"
+          }
+        ]
+      },
+      {
+        "name" : "CC",
+        "proceedings" : "https://dblp.org/db/conf/cc/index.html",
+        "tags" : ["pl"],
+        "series": [
+          {
+            "date" : "",
+            "website" : ""
+          },
+          {
+            "date" : "02-04-2022",
+            "website" : "https://conf.researchr.org/home/CC-2022"
+          }
+        ]
+      },
+      {
+        "name" : "EuroSys",
+        "proceedings" : "https://dblp.org/db/conf/eurosys/index.html",
+        "tags" : ["sys"],
+        "series": [
+          {
+            "date" : "",
+            "website" : ""
+          },
+          {
+            "date" : "05-04-2022",
+            "website" : "https://2022.eurosys.org/"
+          }
+        ]
+      },
+      {
+        "name" : "ICPE",
+        "proceedings" : "https://dblp.org/db/conf/wosp/index.html",
+        "tags" : ["perf"],
+        "series": [
+          {
+            "date" : "",
+            "website" : ""
+          },
+          {
+            "date" : "09-04-2022",
+            "website" : "https://icpe2022.spec.org/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "month" : "May",
+    "venues" : [
+      {
+        "name" : "FCCM",
+        "proceedings" : "https://dblp.org/db/conf/fccm/index.html",
+        "tags" : ["rc"],
+        "series": [
+          {
+            "date" : "",
+            "website" : ""
+          },
+          {
+            "date" : "15-05-2022",
+            "website" : "https://www.fccm.org/"
+          }
+        ]
+      },
+      {
+        "name" : "CF",
+        "proceedings" : "https://dblp.org/db/conf/cf/index.html",
+        "tags" : ["sys", "arch", "rc", "pl", "hpc", "perf"],
+        "series": [
+          {
+            "date" : "",
+            "website" : ""
+          },
+          {
+            "date" : "17-06-2022",
+            "website" : "https://www.computingfrontiers.org/2022/"
+          }
+        ]
+      },
+      {
+        "name" : "RAW",
+        "proceedings" : "https://dblp.org/db/conf/raw/index.html",
+        "tags" : ["rc"],
+        "series": [
+          {
+            "date" : "",
+            "website" : ""
+          },
+          {
+            "date" : "30-05-2022",
+            "website" : "https://raw.necst.it/"
+          }
+        ]
+      },
+      {
+        "name" : "ISPASS",
+        "proceedings" : "https://dblp.org/db/conf/ispass/index.html",
+        "tags" : ["perf"],
+        "series": [
+          {
+            "date" : "",
+            "website" : ""
+          },
+          {
+            "date" : "22-05-2022",
+            "website" : "https://ispass.org/ispass2022/"
+          }
+        ]
+      },
+      {
+        "name" : "S&P",
+        "proceedings" : "https://dblp.org/db/conf/sp/index.html",
+        "tags" : ["sec"],
+        "series": [
+          {
+            "date" : "",
+            "website" : ""
+          },
+          {
+            "date" : "23-05-2022",
+            "website" : "https://www.ieee-security.org/TC/SP2022/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "month" : "June",
+    "venues" : [
+      {
+        "name" : "ISCA",
+        "proceedings" : "https://dblp.org/db/conf/isca/index.html",
+        "tags" : ["arch"],
+        "series": [
+          {
+            "date" : "",
+            "website" : ""
+          },
+          {
+            "date" : "11-06-2022",
+            "website" : "https://iscaconf.org/isca2022/"
+          }
+        ]
+      },
+      {
+        "name" : "SIGMETRICS",
+        "proceedings" : "https://dblp.org/db/conf/sigmetrics/index.html",
+        "tags" : ["perf"],
+        "series": [
+          {
+            "date" : "",
+            "website" : ""
+          },
+          {
+            "date" : "06-06-2022",
+            "website" : "https://www.sigmetrics.org/sigmetrics2022/"
+          }
+        ]
+      },
+      {
+        "name" : "PLDI",
+        "proceedings" : "https://dblp.org/db/conf/pldi/index.html",
+        "tags" : ["pl"],
+        "series": [
+          {
+            "date" : "",
+            "website" : ""
+          },
+          {
+            "date" : "13-06-2022",
+            "website" : "https://pldi22.sigplan.org/"
+          }
+        ]
+      },
+      {
+        "name" : "LCTES",
+        "proceedings" : "https://dblp.org/db/conf/lctrts/index.html",
+        "tags" : ["pl"],
+        "series": [
+          {
+            "date" : "",
+            "website" : ""
+          },
+          {
+            "date" : "13-06-2022",
+            "website" : "https://pldi22.sigplan.org/track/LCTES-2022"
+          }
+        ]
+      },
+      {
+        "name" : "ICS",
+        "proceedings" : "https://dblp.org/db/conf/supercomputer/index.html",
+        "tags" : ["hpc"],
+        "series": [
+          {
+            "date" : "",
+            "website" : ""
+          },
+          {
+            "date" : "27-06-2022",
+            "website" : "https://ics2022.github.io/"
+          }
+        ]
+      },
+      {
+        "name" : "HPDC",
+        "proceedings" : "https://dblp.org/db/conf/hpdc/index.html",
+        "tags" : ["hpc"],
+        "series": [
+          {
+            "date" : "",
+            "website" : ""
+          },
+          {
+            "date" : "27-06-2022",
+            "website" : "https://www.hpdc.org/2022/"
+          }
+        ]
+      },
+      {
+        "name" : "ECOOP",
+        "proceedings" : "https://dblp.org/db/conf/ecoop/index.html",
+        "tags" : ["pl"],
+        "series": [
+          {
+            "date" : "",
+            "website" : ""
+          },
+          {
+            "date" : "06-06-2022",
+            "website" : "https://2022.ecoop.org/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "month" : "July",
+    "venues" : [
+      {
+        "name" : "ASAP",
+        "proceedings" : "https://dblp.org/db/conf/asap/index.html",
+        "tags" : ["arch", "rc"],
+        "series": [
+          {
+            "date" : "",
+            "website" : ""
+          },
+          {
+            "date" : "21-07-2022",
+            "website" : "https://www.asap2022.org/"
+          }
+        ]
+      },
+      {
+        "name" : "SAMOS",
+        "proceedings" : "https://dblp.org/db/conf/samos/index.html",
+        "tags" : ["sys", "arch"],
+        "series": [
+          {
+            "date" : "",
+            "website" : ""
+          },
+          {
+            "date" : "02-08-2022",
+            "website" : "https://samos-conference.com/wp/"
+          }
+        ]
+      },
+      {
+        "name" : "DAC",
+        "proceedings" : "https://dblp.org/db/conf/dac/index.html",
+        "tags" : ["sys", "rc"],
+        "series": [
+          {
+            "date" : "",
+            "website" : ""
+          },
+          {
+            "date" : "10-07-2022",
+            "website" : "https://www.dac.com/"
+          }
+        ]
+      },
+      {
+        "name" : "USENIX ATC",
+        "proceedings" : "https://dblp.org/db/conf/usenix/index.html",
+        "tags" : ["sys"],
+        "series": [
+          {
+            "date" : "",
+            "website" : ""
+          },
+          {
+            "date" : "11-07-2022",
+            "website" : "https://www.usenix.org/conference/atc22"
+          }
+        ]
+      },
+      {
+        "name" : "OSDI",
+        "proceedings" : "https://dblp.org/db/conf/osdi/index.html",
+        "tags" : ["sys"],
+        "series": [
+          {
+            "date" : "",
+            "website" : ""
+          },
+          {
+            "date" : "11-07-2022",
+            "website" : "https://www.usenix.org/conference/osdi22"
+          }
+        ]
+      },
+      {
+        "name" : "SPAA",
+        "proceedings" : "https://dblp.org/db/conf/spaa/index.html",
+        "tags" : ["hpc"],
+        "series": [
+          {
+            "date" : "",
+            "website" : ""
+          },
+          {
+            "date" : "11-07-2022",
+            "website" : "https://spaa.acm.org/"
+          }
+        ]
+      },
+      {
+        "name" : "HiPEAC",
+        "proceedings" : "https://dblp.org/db/conf/hipeac/index.html",
+        "tags" : ["sys", "arch", "pl", "hpc"],
+        "series": [
+          {
+            "date" : "",
+            "website" : ""
+          },
+          {
+            "date" : "20-07-2022",
+            "website" : "https://www.hipeac.net/2022/budapest/#/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "month" : "August",
+    "venues" : [
+      {
+        "name" : "FPL",
+        "proceedings" : "https://dblp.org/db/conf/fpl/index.html",
+        "tags" : ["rc"],
+        "series": [
+          {
+            "date" : "",
+            "website" : ""
+          },
+          {
+            "date" : "29-08-2022",
+            "website" : "https://fpl.org/"
+          }
+        ]
+      },
+      {
+        "name" : "EuroPar",
+        "proceedings" : "https://dblp.org/db/conf/europar/index.html",
+        "tags" : ["hpc"],
+        "series": [
+          {
+            "date" : "",
+            "website" : ""
+          },
+          {
+            "date" : "22-08-2022",
+            "website" : "https://2022.euro-par.org/"
+          }
+        ]
+      },
+      {
+        "name" : "ICPP",
+        "proceedings" : "https://dblp.org/db/conf/icpp/index.html",
+        "tags" : ["hpc"],
+        "series": [
+          {
+            "date" : "",
+            "website" : ""
+          },
+          {
+            "date" : "29-08-2022",
+            "website" : "https://icpp22.gitlabpages.inria.fr/"
+          }
+        ]
+      },
+      {
+        "name" : "USENIX Security",
+        "proceedings" : "https://dblp.org/db/conf/uss/index.html",
+        "tags" : ["sec"],
+        "series": [
+          {
+            "date" : "",
+            "website" : ""
+          },
+          {
+            "date" : "10-08-2022",
+            "website" : "https://www.usenix.org/conference/usenixsecurity22"
+          }
+        ]
+      },
+      {
+        "name" : "Hot Chips",
+        "proceedings" : "https://dblp.org/db/conf/hotchips/index.html",
+        "tags" : ["arch"],
+        "series": [
+          {
+            "date" : "",
+            "website" : ""
+          },
+          {
+            "date" : "21-08-2022",
+            "website" : "https://hotchips.org/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "month" : "October",
+    "venues" : [
+      {
+        "name" : "MICRO",
+        "proceedings" : "https://dblp.org/db/conf/micro/index.html",
+        "tags" : ["arch"],
+        "series": [
+          {
+            "date" : "",
+            "website" : ""
+          },
+          {
+            "date" : "",
+            "website" : ""
+          }
+        ]
+      },
+      {
+        "name" : "PACT",
+        "proceedings" : "https://dblp.org/db/conf/IEEEpact/index.html",
+        "tags" : ["pl"],
+        "series": [
+          {
+            "date" : "",
+            "website" : ""
+          },
+          {
+            "date" : "10-10-2022",
+            "website" : "https://pact22.cs.illinois.edu/"
+          }
+        ]
+      },
+      {
+        "name" : "SOSP",
+        "proceedings" : "https://dblp.org/db/conf/sosp/index.html",
+        "tags" : ["sys"],
+        "series": [
+          {
+            "date" : "",
+            "website" : ""
+          },
+          {
+            "date" : "",
+            "website" : ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "month" : "November",
+    "venues" : [
+      {
+        "name" : "SC",
+        "proceedings" : "https://dblp.org/db/conf/sc/index.html",
+        "tags" : ["hpc"],
+        "series": [
+          {
+            "date" : "",
+            "website" : ""
+          },
+          {
+            "date" : "12-11-2022",
+            "website" : "https://sc22.supercomputing.org/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "month" : "December",
+    "venues" : [
+      {
+        "name" : "FPT",
+        "proceedings" : "https://dblp.org/db/conf/fpt/index.html",
+        "tags" : ["rc"],
+        "series": [
+          {
+            "date" : "",
+            "website" : ""
+          },
+          {
+            "date" : "",
+            "website" : ""
+          }
+        ]
+      },
+      {
+        "name" : "OOPSLA",
+        "proceedings" : "https://dblp.org/db/conf/oopsla/index.html",
+        "tags" : ["pl"],
+        "series": [
+          {
+            "date" : "",
+            "website" : ""
+          },
+          {
+            "date" : "05-12-2022",
+            "website" : "https://2022.splashcon.org/track/splash-2022-oopsla"
+          }
+        ]
+      }
+    ]
+  }
+]

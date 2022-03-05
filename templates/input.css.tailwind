@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.venue-tag {
+  @apply p-1 text-sm rounded-md;
+}
+
+.sys-tag {
+  @apply venue-tag bg-yellow-700
+}
+
+.sec-tag {
+  @apply venue-tag bg-black
+}
+
+.arch-tag {
+  @apply venue-tag bg-sky-700
+}
+
+.rc-tag {
+  @apply venue-tag bg-red-700
+}
+
+.pl-tag {
+  @apply venue-tag bg-green-700
+}
+
+.hpc-tag {
+  @apply venue-tag bg-purple-700
+}
+
+.perf-tag {
+  @apply venue-tag bg-pink-700
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Systems, Compilers, Architecture and FPGA Conferences">
+  <meta name="author" content="Igor Wodiany">
+
+  <title>Conferences Calendar</title>
+
+  <!-- TAILWIND CSS -->
+  <link rel="stylesheet" href="css/output.css">
+
+</head>
+
+<body class="lg:px-32 xl:px-64 2xl:px-96 bg-slate-800 font-mono">
+
+  <div class="mt-5 text-center text-slate-200">
+    <h1 class="text-4xl font-bold">Systems, Compilers, Architecture and FPGA Conferences</h1>
+  </div>
+  <div class="mt-5 text-center text-slate-200">
+    <h2 class="text-3xl font-bold">Conferences by date</h2>
+  </div>
+  <div class="mt-5 flex items-center justify-center">
+    <table class="table-auto text-slate-200 text-center">
+      <thead class="border border-4">
+        <tr>
+          <th class="p-2 border border-4"></th>
+          <th class="p-2 border border-4">Venue</th>
+          <th class="p-2 border border-4">2023</th>
+          <th class="p-2 border border-4">2022</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for month in months %}
+          {% for venue in month.venues %}
+            <tr>
+              {% if loop.index == 1 %}<td class="p-2 border font-bold" rowspan={{ month.venues|length }}>{{ month.month }}</td> {% endif %}
+              <td class="p-2 border"><a href="{{ venue.proceedings }}" class="text-orange-500 font-bold">{{ venue.name }}</a> {% for tag in venue.tags %}<span class="{{ tag }}-tag">{{ tag|upper }}</span> {% endfor %}</td>
+              {% for item in venue.series %}
+                <td class="p-2 border"><a href="{{ item.website }}" class="text-orange-500">{{ item.date }}</a></td>
+              {% endfor %}
+            </tr>
+          {% endfor %}
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  <div class="mt-5 text-center text-slate-200">
+    <p class="my-2"><span class="sys-tag">SYS</span> - Systems</p>
+    <p class="my-2"><span class="sec-tag">SEC</span> - Security</p>
+    <p class="my-2"><span class="arch-tag">ARCH</span> - Computer Architecture</p>
+    <p class="my-2"><span class="rc-tag">RC</span> - Reconfigurable Computing</p>
+    <p class="my-2"><span class="pl-tag">PL</span> - Programming Languages and Compilers</p>
+    <p class="my-2"><span class="hpc-tag">HPC</span> - High-Performance and Parallel Computing</p>
+    <p class="my-2"><span class="perf-tag">PERF</span> - Performance Measurements and Profiling</p>
+  </div>
+  <div class="my-5 text-center text-slate-200">
+    <h2 class="text-3xl font-bold">Frequently Asked Questions</h2>
+    <div class="mt-3">
+      <h3 class="font-bold">Q: Who are you?</h3>
+      <p>A: We are a group of PhD students in the <a href="https://apt.cs.manchester.ac.uk/" class="text-orange-500">APT Group</a> at the <a href="https://www.cs.manchester.ac.uk/" class="text-orange-500">University of Manchester</a> interested in systems, architectures, programming languages, compilers, FPGAs, parallel programming, performance optimizations, profiling and more.</p>
+    </div>
+    <div class="mt-3">
+      <h3 class="font-bold">Q: Why did you create this calendar?</h3>
+      <p>A: We needed a place where we could quickly check dates of conferences that are in the areas of our research. Instead of creating another spreadsheet, text file, etc. we decided to build a simple website, so it can benefit us, people in our department, and hopefully a wider community.</p>
+    </div>
+    <div class="mt-3">
+      <h3 class="font-bold">Q: Are there any other websites like that?</h3>
+      <p>A: Sure! We are greatly inspired by <a href="https://www.cs.technion.ac.il/~dan/" class="text-orange-500">Dan Tsafrir website</a>. It is a great resource, however it only covers some of the venues that we are personally interested in.</p>
+    </div>
+    <div class="mt-3">
+      <h3 class="font-bold">Q: Is it supposed to be an absolute guide to computer science conferences?</h3>
+      <p>A: Absolutely not! The website covers conferences that we are interested in.</p>
+    </div>
+    <div class="mt-3">
+      <h3 class="font-bold">Q: Why is X missing from the calendar?</h3>
+      <p>A: We must have missed it when creating this website. If you think that venue X fits into this calendar feel free to create a <a href="https://github.com/IgWod/conferences/issues" class="text-orange-500">GitHub issue</a> and we will look into adding it.</p>
+    </div>
+    <div class="mt-3">
+      <h3 class="font-bold">Q: Can you add conferences in area Y?</h3>
+      <p>A: Unfortunately we have a limited capacity, so we stick to the venues that we are interested in. However, we encourage you to fork our <a href="https://github.com/IgWod/conferences" class="text-orange-500">GitHub repository</a> and set up a website for your area.</p>
+    </div>
+    <div class="mt-3">
+      <h3 class="font-bold">Q: How can I report any problems?</h3>
+      <p>A: To report any problems, bug, typos please create a <a href="https://github.com/IgWod/conferences/issues" class="text-orange-500">GitHub issue</a> and we will look into it.</p>
+    </div>
+  </div>
+
+</body>

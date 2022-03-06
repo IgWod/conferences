@@ -38,7 +38,7 @@
           {% for venue in month.venues %}
             <tr>
               {% if loop.index == 1 %}<td class="p-2 border font-bold" rowspan={{ month.venues|length }}>{{ month.month }}</td> {% endif %}
-              <td class="p-2 border"><a href="{{ venue.proceedings }}" class="text-orange-500 font-bold">{{ venue.name }}</a> {% for tag in venue.tags %}<span class="{{ tag }}-tag">{{ tag|upper }}</span> {% endfor %}</td>
+              <td class="p-2 border leading-loose sm:leading-normal"><a href="{{ venue.proceedings }}" class="text-orange-500 font-bold">{{ venue.name }}</a> {% for tag in venue.tags %}<span class="{{ tag }}-tag">{{ tag|upper }}</span> {% endfor %}</td>
               {% for item in venue.series %}
                 <td class="p-2 border"><a href="{{ item.website }}" class="text-orange-500">{{ item.date }}</a></td>
               {% endfor %}

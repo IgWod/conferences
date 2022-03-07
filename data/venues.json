@@ -219,7 +219,7 @@
       },
       {
         "name" : "RAW",
-        "proceedings" : "https://dblp.org/db/conf/raw/index.html",
+        "proceedings" : "https://ieeexplore.ieee.org/xpl/conhome/9459012/proceeding",
         "tags" : ["rc"],
         "series": [
           {

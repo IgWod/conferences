@@ -14,4 +14,4 @@ This will take the list of conferences in `data/` and HTML + CSS templates in `t
 
 ## Credits
 
-This website was designed and build by Igor (https://wodiany.me) with an invaluable input from Nick (http://nkyparissas.me), Kostas (https://iordanouki.github.io) and Ruiqi (https://linkedin.com/in/ruiqi-ye-139482147/).
+The code and content of this website has been contributed by [Igor](https://wodiany.me), [Łukasz](https://github.com/devluki), [Nick](http://nkyparissas.me), [Kostas](https://iordanouki.github.io) and [Ruiqi](https://linkedin.com/in/ruiqi-ye-139482147/).

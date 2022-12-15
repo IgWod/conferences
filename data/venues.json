@@ -15,7 +15,8 @@
             "date" : "16-01-2022",
             "website" : "https://popl22.sigplan.org/"
           }
-        ]
+        ],
+        "deadline" : "07-07-2022"
       },
       {
         "name" : "HiPEAC",
@@ -30,7 +31,8 @@
             "date" : "20-07-2022",
             "website" : "https://www.hipeac.net/2022/budapest/#/"
           }
-        ]
+        ],
+        "deadline" : ""
       }
     ]
   },
@@ -50,7 +52,8 @@
             "date" : "27-02-2022",
             "website" : "https://www.isfpga.org/"
           }
-        ]
+        ],
+        "deadline" : "23-09-2022"
       },
       {
         "name" : "HPCA",
@@ -65,7 +68,8 @@
             "date" : "06-04-2022",
             "website" : "https://hpca-conf.org/2022/"
           }
-        ]
+        ],
+        "deadline" : "01-08-2022"
       },
       {
         "name" : "CGO",
@@ -80,7 +84,8 @@
             "date" : "02-04-2022",
             "website" : "https://conf.researchr.org/home/cgo-2022/"
           }
-        ]
+        ],
+        "deadline" : "02-09-2022"
       },
       {
         "name" : "CC",
@@ -95,7 +100,8 @@
             "date" : "02-04-2022",
             "website" : "https://conf.researchr.org/home/CC-2022"
           }
-        ]
+        ],
+        "deadline" : "20-11-2022"
       },
       {
         "name" : "PPoPP",
@@ -110,7 +116,8 @@
             "date" : "02-04-2022",
             "website" : "https://ppopp22.sigplan.org/"
           }
-        ]
+        ],
+        "deadline" : "17-08-2022"
       }
     ]
   },
@@ -130,7 +137,8 @@
             "date" : "28-02-2022",
             "website" : "https://asplos-conference.org/2022/"
           }
-        ]
+        ],
+        "deadline" : "20-10-2022"
       },
       {
         "name" : "VEE",
@@ -145,7 +153,8 @@
             "date" : "01-03-2022",
             "website" : "https://conf.researchr.org/home/vee-2022"
           }
-        ]
+        ],
+        "deadline" : ""
       },
       {
         "name" : "ICPP",
@@ -160,7 +169,8 @@
             "date" : "29-08-2022",
             "website" : "https://icpp22.gitlabpages.inria.fr/"
           }
-        ]
+        ],
+        "deadline" : "28-12-2022"
       }
     ]
   },
@@ -180,7 +190,8 @@
             "date" : "14-03-2022",
             "website" : "https://www.date-conference.com/"
           }
-        ]
+        ],
+        "deadline" : "25-09-2022"
       },
       {
         "name" : "ICPE",
@@ -195,7 +206,8 @@
             "date" : "09-04-2022",
             "website" : "https://icpe2022.spec.org/"
           }
-        ]
+        ],
+        "deadline" : "04-11-2022"
       },
       {
         "name" : "NSDI",
@@ -210,7 +222,8 @@
             "date" : "04-04-2022",
             "website" : "https://www.usenix.org/conference/nsdi22"
           }
-        ]
+        ],
+        "deadline" : "20-09-2022"
       }
     ]
   },
@@ -230,7 +243,8 @@
             "date" : "05-04-2022",
             "website" : "https://2022.eurosys.org/"
           }
-        ]
+        ],
+        "deadline" : "19-10-2022"
       },
       {
         "name" : "FCCM",
@@ -245,7 +259,8 @@
             "date" : "15-05-2022",
             "website" : "https://www.fccm.org/"
           }
-        ]
+        ],
+        "deadline" : "16-01-2023"
       },
       {
         "name" : "CF",
@@ -260,7 +275,8 @@
             "date" : "17-06-2022",
             "website" : "https://www.computingfrontiers.org/2022/"
           }
-        ]
+        ],
+        "deadline" : "27-01-2023"
       },
       {
         "name" : "RAW",
@@ -268,14 +284,15 @@
         "tags" : ["rc"],
         "series": [
           {
-            "date" : "??-05-2023",
+            "date" : "",
             "website" : "https://raw.necst.it/"
           },
           {
             "date" : "30-05-2022",
             "website" : "https://raw.necst.it/"
           }
-        ]
+        ],
+        "deadline" : "16-01-2023"
       },
       {
         "name" : "ISPASS",
@@ -290,7 +307,8 @@
             "date" : "22-05-2022",
             "website" : "https://ispass.org/ispass2022/"
           }
-        ]
+        ],
+        "deadline" : "11-12-2022"
       },
       {
         "name" : "S&P",
@@ -305,7 +323,8 @@
             "date" : "23-05-2022",
             "website" : "https://www.ieee-security.org/TC/SP2022/"
           }
-        ]
+        ],
+        "deadline" : "02-12-2022"
       }
     ]
   },
@@ -325,7 +344,8 @@
             "date" : "11-06-2022",
             "website" : "https://iscaconf.org/isca2022/"
           }
-        ]
+        ],
+        "deadline" : "21-11-2022"
       },
       {
         "name" : "SIGMETRICS",
@@ -340,7 +360,8 @@
             "date" : "06-06-2022",
             "website" : "https://www.sigmetrics.org/sigmetrics2022/"
           }
-        ]
+        ],
+        "deadline" : "25-01-2023"
       },
       {
         "name" : "PLDI",
@@ -355,7 +376,8 @@
             "date" : "13-06-2022",
             "website" : "https://pldi22.sigplan.org/"
           }
-        ]
+        ],
+        "deadline" : "10-11-2022"
       },
       {
         "name" : "LCTES",
@@ -370,7 +392,8 @@
             "date" : "13-06-2022",
             "website" : "https://pldi22.sigplan.org/track/LCTES-2022"
           }
-        ]
+        ],
+        "deadline" : ""
       },
       {
         "name" : "ICS",
@@ -385,7 +408,8 @@
             "date" : "27-06-2022",
             "website" : "https://ics2022.github.io/"
           }
-        ]
+        ],
+        "deadline" : "03-02-2023"
       },
       {
         "name" : "HPDC",
@@ -400,7 +424,8 @@
             "date" : "27-06-2022",
             "website" : "https://www.hpdc.org/2022/"
           }
-        ]
+        ],
+        "deadline" : "27-01-2023"
       },
       {
         "name" : "SPAA",
@@ -415,7 +440,8 @@
             "date" : "11-07-2022",
             "website" : "https://spaa.acm.org/"
           }
-        ]
+        ],
+        "deadline" : "16-01-2023"
       }
     ]
   },
@@ -435,7 +461,8 @@
             "date" : "06-06-2022",
             "website" : "https://2022.ecoop.org/"
           }
-        ]
+        ],
+        "deadline" : "01-03-2023"
       },
       {
         "name" : "ASAP",
@@ -450,7 +477,8 @@
             "date" : "21-07-2022",
             "website" : "https://www.asap2022.org/"
           }
-        ]
+        ],
+        "deadline" : "27-02-2023"
       },
       {
         "name" : "SAMOS",
@@ -465,7 +493,8 @@
             "date" : "02-08-2022",
             "website" : "https://samos-conference.com/wp/"
           }
-        ]
+        ],
+        "deadline" : ""
       },
       {
         "name" : "DAC",
@@ -480,7 +509,8 @@
             "date" : "10-07-2022",
             "website" : "https://www.dac.com/"
           }
-        ]
+        ],
+        "deadline" : "21-11-2022"
       },
       {
         "name" : "USENIX ATC",
@@ -495,7 +525,8 @@
             "date" : "11-07-2022",
             "website" : "https://www.usenix.org/conference/atc22"
           }
-        ]
+        ],
+        "deadline" : "12-01-2023"
       },
       {
         "name" : "OSDI",
@@ -510,7 +541,8 @@
             "date" : "11-07-2022",
             "website" : "https://www.usenix.org/conference/osdi22"
           }
-        ]
+        ],
+        "deadline" : "13-12-2022"
       }
     ]
   },
@@ -530,7 +562,8 @@
             "date" : "22-08-2022",
             "website" : "https://2022.euro-par.org/"
           }
-        ]
+        ],
+        "deadline" : "19-10-2022"
       },
       {
         "name" : "USENIX Security",
@@ -545,7 +578,8 @@
             "date" : "10-08-2022",
             "website" : "https://www.usenix.org/conference/usenixsecurity22"
           }
-        ]
+        ],
+        "deadline" : "07-02-2023"
       },
       {
         "name" : "Hot Chips",
@@ -560,7 +594,8 @@
             "date" : "21-08-2022",
             "website" : "https://hotchips.org/"
           }
-        ]
+        ],
+        "deadline" : ""
       }
     ]
   },
@@ -580,7 +615,8 @@
             "date" : "29-08-2022",
             "website" : "https://fpl.org/"
           }
-        ]
+        ],
+        "deadline" : ""
       }
     ]  
   },
@@ -600,7 +636,8 @@
             "date" : "01-10-2022",
             "website" : "https://www.microarch.org/micro55/"
           }
-        ]
+        ],
+        "deadline" : ""
       },
       {
         "name" : "PACT",
@@ -615,7 +652,8 @@
             "date" : "10-10-2022",
             "website" : "https://pact22.cs.illinois.edu/"
           }
-        ]
+        ],
+        "deadline" : ""
       },
       {
         "name" : "SOSP",
@@ -630,7 +668,8 @@
             "date" : "",
             "website" : ""
           }
-        ]
+        ],
+        "deadline" : ""
       }
     ]
   },
@@ -650,7 +689,8 @@
             "date" : "12-11-2022",
             "website" : "https://sc22.supercomputing.org/"
           }
-        ]
+        ],
+        "deadline" : ""
       }
     ]
   },
@@ -670,7 +710,8 @@
             "date" : "05-12-2022",
             "website" : "https://fpt22.hkust.edu.hk/"
           }
-        ]
+        ],
+        "deadline" : ""
       },
       {
         "name" : "OOPSLA",
@@ -685,7 +726,8 @@
             "date" : "05-12-2022",
             "website" : "https://2022.splashcon.org/track/splash-2022-oopsla"
           }
-        ]
+        ],
+        "deadline" : ""
       }
     ]
   }

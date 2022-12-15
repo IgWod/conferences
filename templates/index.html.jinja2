@@ -31,6 +31,7 @@
           <th class="p-2 border border-4">Venue</th>
           <th class="p-2 border border-4">2023</th>
           <th class="p-2 border border-4">2022</th>
+          <th class="p-2 border border-4">Next Deadline</th>
         </tr>
       </thead>
       <tbody>
@@ -42,6 +43,7 @@
               {% for item in venue.series %}
                 <td class="p-2 border"><a href="{{ item.website }}" class="text-orange-500">{{ item.date }}</a></td>
               {% endfor %}
+              <td class="p-2 border">{{ venue.deadline }} (<span id="{{ venue.name|replace('&','and')|replace(' ','_') }}-counter">0</span> days)</td>
             </tr>
           {% endfor %}
         {% endfor %}
@@ -90,3 +92,30 @@
   </div>
   <script src="js/main.js"></script>
 </body>
+
+<script>
+var now = new Date().getTime();
+
+function set_counter(id, deadline, now) {
+  var distance = deadline - now;
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+
+  document.getElementById(id).innerHTML = days
+
+  if (distance < 0) {
+    document.getElementById(id).innerHTML = "0";
+    document.getElementById(id).parentNode.classList.add("text-red-500");
+  } else if(distance > 0) {
+    document.getElementById(id).parentNode.classList.add("text-green-500");
+  } else {
+    document.getElementById(id).parentNode.innerHTML = "";
+  }
+}
+
+{% for month in months %}
+  {% for venue in month.venues %}
+    {% set parts = venue.deadline.split('-') %}
+    set_counter("{{ venue.name|replace('&','and')|replace(' ','_') }}-counter", new Date("{{ parts[2] }}-{{ parts[1] }}-{{ parts[0] }}").getTime(), now);
+  {% endfor %}
+{% endfor %}
+</script>

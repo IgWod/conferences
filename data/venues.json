@@ -118,6 +118,22 @@
           }
         ],
         "deadline" : "17-08-2022"
+      },
+      {
+        "name" : "NDSS",
+        "proceedings" : "https://dblp.org/db/conf/ndss/index.html",
+        "tags" : ["sec"],
+        "series": [
+          {
+            "date" : "27-02-2023",
+            "website" : "https://www.ndss-symposium.org/ndss2023/"
+          },
+          {
+            "date" : "24-04-2022",
+            "website" : "https://www.ndss-symposium.org/ndss2022/"
+          }
+        ],
+        "deadline" : "29-07-2022"
       }
     ]
   },
@@ -208,22 +224,6 @@
           }
         ],
         "deadline" : "04-11-2022"
-      },
-      {
-        "name" : "NSDI",
-        "proceedings" : "https://dblp.org/db/conf/nsdi/index.html",
-        "tags" : ["sec"],
-        "series": [
-          {
-            "date" : "17-04-2023",
-            "website" : "https://www.usenix.org/conference/nsdi23"
-          },
-          {
-            "date" : "04-04-2022",
-            "website" : "https://www.usenix.org/conference/nsdi22"
-          }
-        ],
-        "deadline" : "20-09-2022"
       }
     ]
   },
@@ -691,7 +691,24 @@
           }
         ],
         "deadline" : ""
+      },
+      {
+        "name" : "CCS",
+        "proceedings" : "https://dblp.org/db/conf/ccs/index.html",
+        "tags" : ["sec"],
+        "series": [
+          {
+            "date" : "",
+            "website" : ""
+          },
+          {
+            "date" : "07-11-2022",
+            "website" : "https://www.sigsac.org/ccs/CCS2022/"
+          }
+        ],
+        "deadline" : ""
       }
+
     ]
   },
   {
@@ -725,6 +742,22 @@
           {
             "date" : "05-12-2022",
             "website" : "https://2022.splashcon.org/track/splash-2022-oopsla"
+          }
+        ],
+        "deadline" : ""
+      },
+      {
+        "name" : "ACSAC",
+        "proceedings" : "https://dblp.org/db/conf/acsac/index.html",
+        "tags" : ["sec"],
+        "series": [
+          {
+            "date" : "04-12-2023",
+            "website" : "https://www.acsac.org/"
+          },
+          {
+            "date" : "05-12-2022",
+            "website" : "https://www.acsac.org/"
           }
         ],
         "deadline" : ""

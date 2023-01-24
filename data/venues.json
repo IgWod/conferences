@@ -171,22 +171,6 @@
           }
         ],
         "deadline" : ""
-      },
-      {
-        "name" : "ICPP",
-        "proceedings" : "https://dblp.org/db/conf/icpp/index.html",
-        "tags" : ["hpc"],
-        "series": [
-          {
-            "date" : "06-03-2023",
-            "website" : "https://waset.org/parallel-processing-conference-in-march-2023-in-rome"
-          },
-          {
-            "date" : "29-08-2022",
-            "website" : "https://icpp22.gitlabpages.inria.fr/"
-          }
-        ],
-        "deadline" : "28-12-2022"
       }
     ]
   },
@@ -596,6 +580,22 @@
           }
         ],
         "deadline" : ""
+      },
+      {
+        "name" : "ICPP",
+        "proceedings" : "https://dblp.org/db/conf/icpp/index.html",
+        "tags" : ["hpc"],
+        "series": [
+          {
+            "date" : "07-08-2023",
+            "website" : "https://icpp23.sci.utah.edu/"
+          },
+          {
+            "date" : "29-08-2022",
+            "website" : "https://icpp22.gitlabpages.inria.fr/"
+          }
+        ],
+        "deadline" : "22-04-2023"
       }
     ]
   },

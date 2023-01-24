@@ -130,7 +130,7 @@
         
           
             <tr>
-              <td class="p-2 border font-bold" rowspan=3>March</td> 
+              <td class="p-2 border font-bold" rowspan=2>March</td> 
               <td class="p-2 border leading-loose sm:leading-normal"><a href="https://dblp.org/db/conf/asplos/index.html" class="text-orange-500 font-bold">ASPLOS</a> <span class="sys-tag">SYS</span> <span class="arch-tag">ARCH</span> <span class="rc-tag">RC</span> <span class="pl-tag">PL</span> </td>
               
                 <td class="p-2 border"><a href="https://asplos-conference.org/2023/" class="text-orange-500">25-03-2023</a></td>
@@ -149,17 +149,6 @@
                 <td class="p-2 border"><a href="https://conf.researchr.org/home/vee-2022" class="text-orange-500">01-03-2022</a></td>
               
               <td class="p-2 border"> (<span id="VEE-counter">0</span> days)</td>
-            </tr>
-          
-            <tr>
-              
-              <td class="p-2 border leading-loose sm:leading-normal"><a href="https://dblp.org/db/conf/icpp/index.html" class="text-orange-500 font-bold">ICPP</a> <span class="hpc-tag">HPC</span> </td>
-              
-                <td class="p-2 border"><a href="https://waset.org/parallel-processing-conference-in-march-2023-in-rome" class="text-orange-500">06-03-2023</a></td>
-              
-                <td class="p-2 border"><a href="https://icpp22.gitlabpages.inria.fr/" class="text-orange-500">29-08-2022</a></td>
-              
-              <td class="p-2 border">28-12-2022 (<span id="ICPP-counter">0</span> days)</td>
             </tr>
           
         
@@ -404,7 +393,7 @@
         
           
             <tr>
-              <td class="p-2 border font-bold" rowspan=3>August</td> 
+              <td class="p-2 border font-bold" rowspan=4>August</td> 
               <td class="p-2 border leading-loose sm:leading-normal"><a href="https://dblp.org/db/conf/europar/index.html" class="text-orange-500 font-bold">EuroPar</a> <span class="hpc-tag">HPC</span> </td>
               
                 <td class="p-2 border"><a href="https://2023.euro-par.org/" class="text-orange-500">28-08-2023</a></td>
@@ -434,6 +423,17 @@
                 <td class="p-2 border"><a href="https://hotchips.org/" class="text-orange-500">21-08-2022</a></td>
               
               <td class="p-2 border"> (<span id="Hot_Chips-counter">0</span> days)</td>
+            </tr>
+          
+            <tr>
+              
+              <td class="p-2 border leading-loose sm:leading-normal"><a href="https://dblp.org/db/conf/icpp/index.html" class="text-orange-500 font-bold">ICPP</a> <span class="hpc-tag">HPC</span> </td>
+              
+                <td class="p-2 border"><a href="https://icpp23.sci.utah.edu/" class="text-orange-500">07-08-2023</a></td>
+              
+                <td class="p-2 border"><a href="https://icpp22.gitlabpages.inria.fr/" class="text-orange-500">29-08-2022</a></td>
+              
+              <td class="p-2 border">22-04-2023 (<span id="ICPP-counter">0</span> days)</td>
             </tr>
           
         
@@ -645,9 +645,6 @@ function set_counter(id, deadline, now) {
     
     set_counter("VEE-counter", new Date("--").getTime(), now);
   
-    
-    set_counter("ICPP-counter", new Date("2022-12-28").getTime(), now);
-  
 
   
     
@@ -729,6 +726,9 @@ function set_counter(id, deadline, now) {
   
     
     set_counter("Hot_Chips-counter", new Date("--").getTime(), now);
+  
+    
+    set_counter("ICPP-counter", new Date("2023-04-22").getTime(), now);
   
 
   
